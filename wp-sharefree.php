@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: ShareFree
+Plugin Name: WP ShareFree
 Plugin URI: http://gresak.net
 Description: Ads share free buttons to content
 Author: Gregor Gresak
