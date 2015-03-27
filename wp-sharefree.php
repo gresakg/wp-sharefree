@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP ShareFree
 Plugin URI: http://gresak.net
-Description: Ads share free buttons to content
+Description: Adds share free buttons to content
 Author: Gregor Gresak
 Version: 0.1
 Author URI: http://gresak.net
