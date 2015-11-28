@@ -49,7 +49,7 @@
 		var sfTitle = encodeURIComponent($("title").text());
 		var sfImage = $("img")[0].src;
 		var currentUrl= encodeURIComponent($(location).attr('href'))
-		var fblink= "https://www.facebook.com/sharer.php?u=" + currentUrl + "&amp;image=" + sfImage
+		var fblink= "https://www.facebook.com/sharer/sharer.php?u=" + currentUrl
 		var twlink = "http://twitter.com/share?text=" + sfTitle + "&amp;url=" + currentUrl
 		var gplink = "https://plus.google.com/share?url=" + currentUrl
 		var pilink = "http://pinterest.com/pin/find/?url=" + currentUrl
