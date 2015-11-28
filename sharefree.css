@@ -1,3 +1,9 @@
-.sharefree a {
+.sharefree {
+    margin: 5px 0;
+    text-align: right;
+    width: 100%;
+}
+
+}.sharefree a {
     padding: 2px;
 }
