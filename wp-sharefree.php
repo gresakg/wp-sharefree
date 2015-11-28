@@ -23,5 +23,8 @@ function display_sharefree($content) {
 	$content = $divs.$content.$divs.$js;
 	return $content;
 }
+
 wp_enqueue_script('sharefree',plugins_url('wp-sharefree/sharefree.js'),array('jquery'));
+wp_enqueue_style('sharefree',plugins_url('wp-sharefree/sharefree.css'));
+
 add_filter("the_content","display_sharefree");
