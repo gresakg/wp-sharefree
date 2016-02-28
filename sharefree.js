@@ -47,7 +47,6 @@
 		var options = $.extend(defaults, options);
 		
 		var sfTitle = encodeURIComponent($("title").text());
-		var sfImage = $("img")[0].src;
 		var currentUrl= encodeURIComponent($(location).attr('href'))
 		var fblink= "https://www.facebook.com/sharer/sharer.php?u=" + currentUrl
 		var twlink = "http://twitter.com/share?text=" + sfTitle + "&amp;url=" + currentUrl
